@@ -19,4 +19,4 @@ after_success:
  - fandogh image init --name=siahpoosh
  - fandogh image publish --version v$TRAVIS_JOB_NUMBER
  - fandogh service apply -f manifest.yaml -p token=$TOKEN
- - fandogh service deploy --version v$TRAVIS_JOB_NUMBER --hosts 1sabooh.ir --name sabooh --port 80
+ - fandogh service deploy --version v$TRAVIS_JOB_NUMBER --name siahpoosh
