@@ -1,0 +1,7 @@
+kind: ExternalService
+name: siahpoosh
+spec:
+  env:
+    - name: token
+      value: ${token}
+      hidden: true
